@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+section {
+    margin: 2rem 0;
+}
+
+.float-left {
+    float:left
+    
+}
+
+img.float-left {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pers {
+    width: 80px;
+}
+
+
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+
+}
+
+#titolo {
+    color: rgb(209, 0, 209);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+#paragrafo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.col {
+    float: left;
+    width: 15%;
+    padding: 8px;
+    border:solid;
+    background-color: black;
+    color: white;
+}
+
+.email {
+    font-family: cursive;
+    color: rgb(5, 114, 177);
+}
+
