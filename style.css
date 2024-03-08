@@ -1,61 +1,75 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    
 }
 
-section {
-    margin: 2rem 0;
-}
-
-.float-left {
-    float:left
-    
-}
-
-img.float-left {
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-}
-
-.pers {
-    width: 80px;
-}
-
-
-.container {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 30px;
-
+body {
+    font-family: "Roboto", sans-serif;
 }
 
 #titolo {
-    color: rgb(209, 0, 209);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 50px;
-    text-align: center;
-
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#paragrafo {
-    text-align: center;
+.clearfix {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
     margin-top: 30px;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: block;
+header {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-weight: 800;
 }
 
 .col {
     float: left;
-    width: 15%;
-    padding: 8px;
-    border:solid;
-    background-color: black;
+    width: calc(100% / 3);
+    padding: 0 1rem 3rem 1rem;
+}
+
+.card {
+    background: #0f0e17;
     color: white;
+    width: 100%;
+    box-shadow: 0 0 10px black;
+}
+
+.card-image {
+    float: left;
+    width: 100px;
+}
+
+.card-content {
+    float: left;
+    width: calc(100% - 100px);
+    padding-left: 1rem;
+}
+
+.card-content h2 {
+    margin-top: 0.75rem;
+}
+
+.card-content p {
+    margin: 0.4rem 0;
+}
+
+.card-content a {
+    text-decoration: none;
+    color: #6ecbf2;
 }
 
 .email {
